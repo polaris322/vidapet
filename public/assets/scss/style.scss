@@ -4374,10 +4374,8 @@ a.ui-button:active,
   background-repeat: no-repeat;
   padding: 90px 0 180px;
   overflow: hidden;
-  .bg {
-    padding: 90px 0;
-    position: relative;
-    z-index: 1;
+  .bg {    
+    position: relative;    
     &::after {
       content: "";
       background: var(--gradient-color);
@@ -4391,7 +4389,6 @@ a.ui-button:active,
     }
     .single-card {
       display: flex;
-      align-items: center;
       .icon {
         height: 74px;
         min-width: 74px;
@@ -4403,8 +4400,7 @@ a.ui-button:active,
         margin-right: 15px;
         transition: 0.4s;
       }
-      .content {
-        max-width: 245px;
+      .content {        
         h4 {
           @include font(1.5rem, 800, var(--white));
           font-family: var(--font-dosis);

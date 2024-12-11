@@ -7,6 +7,9 @@ import Header3 from "../components/header/Header3";
 import Home3Newslatter from "../components/newslatter/Home3Newslatter";
 import Home3Testimonial from "../components/testimonial/Home3Testimonial";
 import Home1Team from "../components/team/Home1Team";
+import Pricing from "../components/collection/Pricing";
+import FeatureCounter from "../components/feature/FeatureCounter";
+import Home1feature from "../components/feature/Home1feature";
 
 function HomePage3() {
   return (
@@ -15,6 +18,9 @@ function HomePage3() {
       <Banner3 />
       <Home3Collection />
       <Home1Team />
+      <Pricing />
+      <Home1feature />
+      <FeatureCounter />
       <Home3Testimonial />
       <Home3Newslatter />
       <Home3Blog />

@@ -24,7 +24,7 @@ function FeatureCounter() {
     <div className="h1-feature-counter mb-120">
       <div className="container-md container-fluid">
         <div className="row justify-content-center g-md-4 gy-5">
-          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div className="counter-single client">
               <div className="counter-icon">
                 <img src="assets/images/icon/client.svg " alt="image" />
@@ -34,19 +34,19 @@ function FeatureCounter() {
                   <h3 className="odometer">
                     <div id="my-element">
                       {startCounting ? (
-                        <CountUp start={0} end={100} duration={3} />
+                        <CountUp start={0} end={90} duration={3} />
                       ) : (
                         <></>
                       )}
                     </div>
                   </h3>
-                  <span>+</span>
+                  <span>%</span>
                 </div>
-                <p>Client Served</p>
+                <p className="text-capitalize">MEJOR CALIDAD DE HECES</p>
               </div>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div className="counter-single animals">
               <div className="counter-icon">
                 <img src="assets/images/icon/animals.svg" alt="image" />
@@ -56,19 +56,19 @@ function FeatureCounter() {
                   <h3 className="odometer">
                     <div id="my-element">
                       {startCounting ? (
-                        <CountUp start={0} end={700} duration={3} />
+                        <CountUp start={0} end={92} duration={3} />
                       ) : (
                         <></>
                       )}
                     </div>
                   </h3>
-                  <span>+</span>
+                  <span>%</span>
                 </div>
-                <p>Served animals</p>
+                <p className="text-capitalize">FELICIDAD EN LA HORA DE COMER</p>
               </div>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div className="counter-single walked">
               <div className="counter-icon">
                 <img src="assets/images/icon/walked.svg " alt="image" />
@@ -76,37 +76,10 @@ function FeatureCounter() {
               <div className="coundown">
                 <div className="d-flex align-items-center gap-2">
                   <h3 className="odometer">
-                    <div id="my-element">
-                      {startCounting ? (
-                        <CountUp start={0} end={1000} duration={3} />
-                      ) : (
-                        <></>
-                      )}
-                    </div>
+                    <div id="my-element">1 ~ 2 meses</div>
                   </h3>
                 </div>
-                <p>Miles Walked </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-            <div className="counter-single years">
-              <div className="counter-icon">
-                <img src="assets/images/icon/years.svg " alt="image" />
-              </div>
-              <div className="coundown">
-                <div className="d-flex align-items-center gap-2">
-                  <h3 className="odometer">
-                    <div id="my-element">
-                      {startCounting ? (
-                        <CountUp start={0} end={2} duration={3} />
-                      ) : (
-                        <></>
-                      )}
-                    </div>
-                  </h3>
-                </div>
-                <p>Combined years</p>
+                <p className="text-capitalize">PESO SALUDABLE</p>
               </div>
             </div>
           </div>

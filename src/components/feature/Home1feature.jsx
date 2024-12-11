@@ -3,58 +3,50 @@ import React from "react";
 function Home1feature() {
   return (
     <div className="h1-feature-area">
-      <div className="container-fluid p-0">
+      <div className="container">
         <div className="row justify-content-center bg">
-          <div className="col-lg-10 gap-4 d-flex align-items-center justify-content-lg-between justify-content-center flex-lg-nowrap flex-wrap ">
-            <div className="feature-left">
+          <div className="col-md-10 m-auto">
+            <div className="freture-title">
+              <h2 className="text-start mb-45">PLANES DE COMIDA</h2>
               <div className="single-card mb-45">
                 <div className="icon">
                   <img src="assets/images/icon/badge1.svg" alt="" />
                 </div>
                 <div className="content">
-                  <h4>ID Badged</h4>
+                  <h4>PRESENTANOS A TU PERRITO</h4>
                   <p>
-                    Pellentesque maximus augue orci, quis congue purus iaculison
+                    Queremos conocer a tu amado compañero. Hemos simplificado
+                    nuestro cuestionario para que puedas responder fácilmente y
+                    dedicar más tiempo a jugar y disfrutar de momentos
+                    especiales juntos.
                   </p>
                 </div>
               </div>
-              <div className="single-card">
+              <div className="single-card mb-45">
                 <div className="icon">
                   <img src="assets/images/icon/checked1.svg" alt="" />
                 </div>
                 <div className="content">
-                  <h4>DBS Checked</h4>
+                  <h4>OBTEN TU CAJA INICIAL</h4>
                   <p>
-                    Pellentesque maximus augue orci, quis congue purus iaculison
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="freture-title">
-              <h2>
-                Your Pets Are <span>100% Safe</span> at Our Care.
-              </h2>
-            </div>
-            <div className="feature-right">
-              <div className="single-card mb-45">
-                <div className="icon">
-                  <img src="assets/images/icon/insured1.svg" alt="" />
-                </div>
-                <div className="content">
-                  <h4>Fully Insured</h4>
-                  <p>
-                    Pellentesque maximus augue orci, quis congue purus iaculison
+                    Tu caja inicial está diseñada con todo el cariño. Contiene
+                    dos semanas de comida cuidadosamente elaborada y las
+                    herramientas necesarias para un servicio fácil. Queremos que
+                    te sientas satisfecho al darle lo mejor a tu mascota.
                   </p>
                 </div>
               </div>
               <div className="single-card">
                 <div className="icon">
-                  <img src="assets/images/icon/fast-aid1.svg" alt="" />
+                  <img src="assets/images/icon/insured1.svg" alt="" />
                 </div>
                 <div className="content">
-                  <h4>Pet First-Aid Trained</h4>
+                  <h4>COMIDA REAL, ENTREGA REGULAR</h4>
                   <p>
-                    Pellentesque maximus augue orci, quis congue purus iaculison
+                    Olvídate de los viajes de última hora a la tienda de
+                    mascotas. En VIDAPET, traemos las comidas nutritivas de tu
+                    perro directamente a tu puerta, en el momento que tú lo
+                    desees. Porque tu tiempo junto a tu perro es invaluable.
                   </p>
                 </div>
               </div>

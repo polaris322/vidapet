@@ -121,7 +121,7 @@ function Home3Collection() {
                 <div className="">
                   <Link legacyBehavior href="/shop">
                     <a className="primary-btn6">
-                      Get Started
+                      Empezar
                       <i className="ms-2 fa fa-arrow-alt-circle-right" />
                     </a>
                   </Link>
