@@ -42,7 +42,7 @@ function Home3Collection() {
                     src="/assets/images/products/VIDA-13.jpg"
                   />
                   <div className="text-center px-md-3">
-                    <p className="h5 text-uppercase mt-4">
+                    <p className="h5 text-uppercase mt-4 text-dark">
                       INGREDIENTES NATURALES
                     </p>
                     <p>
@@ -63,7 +63,7 @@ function Home3Collection() {
                     src="/assets/images/products/VIDA-14.jpg"
                   />
                   <div className="text-center px-md-3">
-                    <p className="h5 text-uppercase mt-4">
+                    <p className="h5 text-uppercase mt-4 text-dark">
                       Carnes de Alta Calidad
                     </p>
                     <p>
@@ -84,7 +84,7 @@ function Home3Collection() {
                     src="/assets/images/products/VIDA-122.jpg"
                   />
                   <div className="text-center px-md-3">
-                    <p className="h5 text-uppercase mt-4">
+                    <p className="h5 text-uppercase mt-4 text-dark">
                       Formulado por Veterinarios
                     </p>
                     <p>
@@ -105,7 +105,7 @@ function Home3Collection() {
                     src="/assets/images/products/VIDA-51.jpg"
                   />
                   <div className="text-center px-md-3">
-                    <p className="h5 text-uppercase mt-4">
+                    <p className="h5 text-uppercase mt-4 text-dark">
                       Cocinado en Cocinas Colombianas
                     </p>
                     <p>
