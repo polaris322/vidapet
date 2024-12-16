@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import Footer1 from "../components/footer/Footer1";
-import Header1 from "../components/header/Header1";
+import Header1 from "../components/header/Header3";
 
 function errorPage() {
   return (

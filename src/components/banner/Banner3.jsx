@@ -11,27 +11,15 @@ SwiperCore.use([Navigation, Pagination, Autoplay, EffectFade]);
 function Banner3() {
   return (
     <>
-      <div className="hero3 mb-90">
-        <div className="background-text">
-          <Marquee pauseOnHover={true} gradient={false} speed={60}>
-            <h2 className="marquee_text">
-              <img src="assets/images/icon/marque-foot.svg" alt="image" />
-              <span>Get exciting Discount</span> Up To 40%
-              <img src="assets/images/icon/marque-foot.svg" alt="image" />
-              <span>On Your first buying</span> Up To 50%
-              <img src="assets/images/icon/marque-foot.svg" alt="image" />
-              <span>Get exciting Discount</span> Up To 30%
-            </h2>
-          </Marquee>
-        </div>
+      <div className="hero3">
         <div className="swiper hero3-slider w-100">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <div className="hero-wrapper">
                 <div className="row align-items-center">
-                  <div className="col-lg-6">
-                    <div className="banner-content">
-                      <h6>El amor es nutritivo</h6>
+                  <div className="col-xl-6">
+                    <div className="banner-content py-3">
+                      <h6 className="mt-3">El amor es nutritivo</h6>
                       <h1>Sirve la Comida Adecuada a tu Peludo</h1>
                       <div className="btn-group">
                         <Link legacyBehavior href="/shop-details">
@@ -42,13 +30,13 @@ function Banner3() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-6 d-flex justify-content-end">
+                  <div className="col-xl-6 d-flex justify-content-end video-container">
                     <video
                       autoPlay
                       loop="loop"
                       muted
                       preload="auto"
-                      width="100%"
+                      className=""
                     >
                       <source
                         src="assets/video/video-02.mp4"

@@ -2,3 +2,13 @@
     object-fit: cover;
     max-height: 300px;
 }
+
+.video-container {
+    height: 625px;
+    overflow: hidden;
+    position: relative;
+
+    video {
+        object-fit: cover;
+    }
+}

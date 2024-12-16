@@ -3887,22 +3887,7 @@ header.style-3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  &::after {
-    content: "";
-    // background-color: var(--primary-color3);
-    background-color: #ffa276;
-    position: absolute;
-    bottom: -90px;
-    left: 0;
-    width: 100%;
-    height: 380px;
-    z-index: -1;
-    display: block;
-    @include sm-down-device() {
-      bottom: -60px;
-    }
-  }
+  position: relative;  
   .background-text {
     position: absolute;
     width: 100%;
