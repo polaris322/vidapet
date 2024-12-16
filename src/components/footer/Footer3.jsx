@@ -9,7 +9,12 @@ function Footer3() {
           <div className="col-lg-5 col-md-12">
             <div className="footer-widget">
               <div className="footer-icon">
-                <img src="assets/images/header2-logo.svg" alt="" />
+                <img
+                  alt="image"
+                  className="img-fluid"
+                  width={150}
+                  src="assets/logo/ANIMADO/logo-animated.gif"
+                />
               </div>
               <div className="widget-title">
                 <h2>
@@ -139,7 +144,8 @@ function Footer3() {
           <div className="col-lg-6">
             <div className="copyright-area">
               <p>
-                © 2023 Scooby is Proudly Powered by <a href="#">Egens Lab.</a>
+                © {new Date().getFullYear()} MyVidaPet is Proudly Powered by{" "}
+                <a href="https://mtwist.tech">Mtwist.tech.</a>
               </p>
             </div>
           </div>

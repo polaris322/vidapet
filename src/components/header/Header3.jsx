@@ -58,9 +58,9 @@ function Header3() {
               </div>
               <div className="opening-time text-center">
                 <p>
-                  Opening Hours
+                  Horario de apertura
                   <br />
-                  <span>Mon - Sat 9.00 - 19.00</span>
+                  <span>Lunes - sábado 9.00 - 19.00</span>
                 </p>
               </div>
               <div className="social-area">

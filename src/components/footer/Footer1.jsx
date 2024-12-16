@@ -10,7 +10,7 @@ function Footer1() {
         <div className="row pt-90 pb-90 justify-content-center">
           <div className="col-lg-3 col-sm-6 order-lg-1 order-2 d-flex justify-content-sm-start justify-content-start">
             <div className="footer-items contact ">
-              <h3>Contacts</h3>
+              <h3>Contactos</h3>
               <div className="hotline mb-30">
                 <div className="hotline-icon">
                   <img src="assets/images/icon/phone-icon.svg" alt="" />
@@ -46,7 +46,7 @@ function Footer1() {
                     <a>168/170, Avenue 01, Mirpur</a>
                   </h6>
                   <h6>
-                    <a>DOHS, Bangladesh</a>
+                    <a>Bogotá, Colombia</a>
                   </h6>
                 </div>
               </div>
@@ -74,7 +74,7 @@ function Footer1() {
                         : "primary-btn1"
                     }
                   >
-                    Book Now
+                    Reservar ahora
                   </a>
                 </Link>
               </div>
@@ -82,10 +82,10 @@ function Footer1() {
           </div>
           <div className="col-lg-3 col-sm-6 d-flex justify-content-sm-end justify-content-start order-3">
             <div className="footer-items opening-time">
-              <h3>Opening Hours</h3>
-              <h6 className="mb-25">Mon - Fri: 9.00AM - 6.00PM</h6>
-              <h6 className="mb-25">Saturday: 9.00AM - 6.00PM</h6>
-              <h6>Sunday: Closed</h6>
+              <h3>Horario de apertura</h3>
+              <h6 className="mb-25">Lunes - sábado: 9.00AM - 6.00PM</h6>
+              <h6 className="mb-25">Sábado: 9.00AM - 6.00PM</h6>
+              <h6>Domingo: Cerrada</h6>
               <ul className="social-icons">
                 <li>
                   <a href="https://www.facebook.com/">

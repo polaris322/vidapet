@@ -15,30 +15,20 @@ function Shop() {
               <div className="shop-sidebar">
                 <div className="shop-widget">
                   <div className="check-box-item">
-                    <h5 className="shop-widget-title">Category</h5>
+                    <h5 className="shop-widget-title">COMIDAS</h5>
                     <div className="checkbox-container">
                       <label className="containerss">
-                        Food Toppers
+                        Sonidos del Llano
                         <input type="checkbox" defaultChecked="checked" />
                         <span className="checkmark" />
                       </label>
                       <label className="containerss">
-                        Milk Replacers
+                        Sabores de la Montana
                         <input type="checkbox" />
                         <span className="checkmark" />
                       </label>
                       <label className="containerss">
-                        Canned Food
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Veterinary Authorized Diets
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Bones &amp; Rawhide
+                        Aves del Corral
                         <input type="checkbox" />
                         <span className="checkmark" />
                       </label>
@@ -47,30 +37,32 @@ function Shop() {
                 </div>
                 <div className="shop-widget">
                   <div className="check-box-item">
-                    <h5 className="shop-widget-title">Brand</h5>
+                    <h5 className="shop-widget-title">CALDOS</h5>
                     <div className="checkbox-container">
                       <label className="containerss">
-                        Fancy Feast
+                        Caldo de huesos de res
+                        <input type="checkbox" defaultChecked="checked" />
+                        <span className="checkmark" />
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div className="shop-widget">
+                  <div className="check-box-item">
+                    <h5 className="shop-widget-title">DESHIDRATADOS</h5>
+                    <div className="checkbox-container">
+                      <label className="containerss">
+                        Sardinas
                         <input type="checkbox" defaultChecked="checked" />
                         <span className="checkmark" />
                       </label>
                       <label className="containerss">
-                        Gentle Giants
+                        Codorniz
                         <input type="checkbox" />
                         <span className="checkmark" />
                       </label>
                       <label className="containerss">
-                        Purina Pro Plan
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Stella &amp; Chewy's
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Pet Dreams
+                        Patas de Pollo
                         <input type="checkbox" />
                         <span className="checkmark" />
                       </label>
@@ -79,30 +71,15 @@ function Shop() {
                 </div>
                 <div className="shop-widget">
                   <div className="check-box-item">
-                    <h5 className="shop-widget-title">Health Consideration</h5>
+                    <h5 className="shop-widget-title">SPREAD</h5>
                     <div className="checkbox-container">
                       <label className="containerss">
-                        Brain Development
+                        Mantequilla de Mani
                         <input type="checkbox" defaultChecked="checked" />
                         <span className="checkmark" />
                       </label>
                       <label className="containerss">
-                        Bladder
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Allergies
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Bone Development
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Dehydration
+                        Yogurt Griego
                         <input type="checkbox" />
                         <span className="checkmark" />
                       </label>
@@ -111,30 +88,20 @@ function Shop() {
                 </div>
                 <div className="shop-widget">
                   <div className="check-box-item">
-                    <h5 className="shop-widget-title">Flavor</h5>
+                    <h5 className="shop-widget-title">SUPLEMENTOS</h5>
                     <div className="checkbox-container">
                       <label className="containerss">
-                        Beef
+                        Espirulina
                         <input type="checkbox" defaultChecked="checked" />
                         <span className="checkmark" />
                       </label>
                       <label className="containerss">
-                        Chicken
+                        Omega 3
                         <input type="checkbox" />
                         <span className="checkmark" />
                       </label>
                       <label className="containerss">
-                        Fish
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Duck
-                        <input type="checkbox" />
-                        <span className="checkmark" />
-                      </label>
-                      <label className="containerss">
-                        Other
+                        Calcio
                         <input type="checkbox" />
                         <span className="checkmark" />
                       </label>
@@ -147,10 +114,10 @@ function Shop() {
               <div className="row mb-50">
                 <div className="col-lg-12">
                   <div className="multiselect-bar">
-                    <h6>shop</h6>
+                    <h6>Productos</h6>
                     <div className="multiselect-area">
                       <div className="single-select">
-                        <span>Show</span>
+                        <span>espectáculo</span>
                         <select
                           className="defult-select-drowpown"
                           id="color-dropdown"
@@ -160,17 +127,6 @@ function Shop() {
                           <option>18</option>
                           <option>21</option>
                           <option>25</option>
-                        </select>
-                      </div>
-                      <div className="single-select two">
-                        <select
-                          style={{ outline: "none" }}
-                          className="defult-select-drowpown"
-                          id="eyes-dropdown"
-                        >
-                          <option>Default</option>
-                          <option>Grid</option>
-                          <option>Closed</option>
                         </select>
                       </div>
                     </div>

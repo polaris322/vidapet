@@ -120,7 +120,7 @@ function ChooseUs() {
                 <img src="assets/images/icon/choose-vector.svg" alt="" />
               </div>
               <img
-                className="img-fluid"
+                className="img-fluid rounded-5"
                 src="assets/images/products/IMG_5920.JPG"
                 alt="choose-img"
               />
