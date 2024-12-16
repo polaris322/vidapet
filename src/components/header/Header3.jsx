@@ -158,7 +158,7 @@ function Header3() {
                   <a>Preguntas Frecuentes (FAQ)</a>
                 </Link>
               </li>
-              <li className={currentRoute === "/blog" ? "active" : ""}>
+              <li className={currentRoute === "/blogs" ? "active" : ""}>
                 <Link legacyBehavior href="/blogs">
                   <a>Blog</a>
                 </Link>

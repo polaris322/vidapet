@@ -5,7 +5,7 @@ import Layout from "../layout/Layout";
 function Faq() {
   return (
     <Layout>
-      <Breadcrumb pageName="FAQ" pageTitle="FAQ" />
+      <Breadcrumb pageName="FAQ" pageTitle="Preguntas Frecuentes (FAQ)" />
       <div className="faq-page pt-120 mb-120">
         <div className="container">
           <div className="row justify-content-center">

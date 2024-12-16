@@ -4408,27 +4408,22 @@ a.ui-button:active,
       @include sm-down-device() {
         padding: 20px 0;
       }
-      h2 {
-        max-width: 720px;
+      h2 {        
         width: 100%;
         @include font(4.063rem, 800, var(--white));
         font-family: var(--font-dosis);
         text-align: center;
         @include fifteen-down-device() {
           font-size: 3.5rem;
-          max-width: 650px;
         }
         @include xl-down-device() {
           font-size: 3.5rem;
-          max-width: 600px;
         }
         @include xl-down-device() {
           font-size: 2.9rem;
-          max-width: 430px;
         }
         @include sm-down-device() {
           font-size: 2.2rem;
-          max-width: 430px;
         }
         span {
           background: var(--gradient-color);

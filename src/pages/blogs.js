@@ -5,7 +5,7 @@ import Layout from "../layout/Layout";
 function blogGridPage() {
   return (
     <Layout>
-      <Breadcrumb pageName="Blog Grid" pageTitle="Blog Grid" />
+      <Breadcrumb pageName="Blogs" pageTitle="Blogs" />
       <BlogGrid />
     </Layout>
   );
